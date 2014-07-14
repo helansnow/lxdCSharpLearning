@@ -1,0 +1,2 @@
+D:\v-lxiaod\CSharpLearning\CSharpLearning\SystemTextEncoding\obj\Debug\ConsoleApplication3.exe
+D:\v-lxiaod\CSharpLearning\CSharpLearning\SystemTextEncoding\obj\Debug\ConsoleApplication3.pdb

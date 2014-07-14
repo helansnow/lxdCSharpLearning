@@ -1,0 +1,6 @@
+D:\v-lxiaod\CSharpLearning\InterviewQuestions\bin\Debug\InterviewQuestions.exe.config
+D:\v-lxiaod\CSharpLearning\InterviewQuestions\bin\Debug\InterviewQuestions.exe
+D:\v-lxiaod\CSharpLearning\InterviewQuestions\bin\Debug\InterviewQuestions.pdb
+D:\v-lxiaod\CSharpLearning\InterviewQuestions\obj\Debug\InterviewQuestions.csprojResolveAssemblyReference.cache
+D:\v-lxiaod\CSharpLearning\InterviewQuestions\obj\Debug\InterviewQuestions.exe
+D:\v-lxiaod\CSharpLearning\InterviewQuestions\obj\Debug\InterviewQuestions.pdb

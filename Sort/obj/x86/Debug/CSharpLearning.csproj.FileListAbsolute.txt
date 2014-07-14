@@ -1,0 +1,10 @@
+F:\v-lxiaod\CSharpLearning\CSharpLearning\bin\Debug\CSharpLearning.exe
+F:\v-lxiaod\CSharpLearning\CSharpLearning\bin\Debug\CSharpLearning.pdb
+F:\v-lxiaod\CSharpLearning\CSharpLearning\obj\x86\Debug\CSharpLearning.exe
+F:\v-lxiaod\CSharpLearning\CSharpLearning\obj\x86\Debug\CSharpLearning.pdb
+F:\v-lxiaod\CSharpLearning\CSharpLearning\obj\x86\Debug\CSharpLearning.csprojResolveAssemblyReference.cache
+D:\v-lxiaod\CSharpLearning\CSharpLearning\obj\x86\Debug\CSharpLearning.exe
+D:\v-lxiaod\CSharpLearning\CSharpLearning\obj\x86\Debug\CSharpLearning.pdb
+D:\v-lxiaod\CSharpLearning\CSharpLearning\bin\Debug\CSharpLearning.exe
+D:\v-lxiaod\CSharpLearning\CSharpLearning\bin\Debug\CSharpLearning.pdb
+D:\v-lxiaod\CSharpLearning\CSharpLearning\obj\x86\Debug\CSharpLearning.csprojResolveAssemblyReference.cache

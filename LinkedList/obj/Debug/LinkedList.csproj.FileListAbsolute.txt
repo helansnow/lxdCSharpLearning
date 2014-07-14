@@ -1,0 +1,6 @@
+D:\v-lxiaod\CSharpLearning\LinkedList\bin\Debug\LinkedList.exe.config
+D:\v-lxiaod\CSharpLearning\LinkedList\bin\Debug\LinkedList.exe
+D:\v-lxiaod\CSharpLearning\LinkedList\bin\Debug\LinkedList.pdb
+D:\v-lxiaod\CSharpLearning\LinkedList\obj\Debug\LinkedList.csprojResolveAssemblyReference.cache
+D:\v-lxiaod\CSharpLearning\LinkedList\obj\Debug\LinkedList.exe
+D:\v-lxiaod\CSharpLearning\LinkedList\obj\Debug\LinkedList.pdb

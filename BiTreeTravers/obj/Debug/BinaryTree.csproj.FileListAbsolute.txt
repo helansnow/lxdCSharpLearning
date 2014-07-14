@@ -1,0 +1,5 @@
+D:\v-lxiaod\CSharpLearning\BiTreeTravers\obj\Debug\BiTreeTravers.exe
+D:\v-lxiaod\CSharpLearning\BiTreeTravers\obj\Debug\BiTreeTravers.pdb
+D:\v-lxiaod\CSharpLearning\BiTreeTravers\bin\Debug\BiTreeTravers.exe
+D:\v-lxiaod\CSharpLearning\BiTreeTravers\bin\Debug\BiTreeTravers.pdb
+D:\v-lxiaod\CSharpLearning\BiTreeTravers\obj\Debug\BinaryTree.csprojResolveAssemblyReference.cache
