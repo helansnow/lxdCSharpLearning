@@ -1,0 +1,6 @@
+D:\v-lxiaod\CSharpLearning\StringManipulate\bin\Debug\StringManipulate.exe.config
+D:\v-lxiaod\CSharpLearning\StringManipulate\bin\Debug\StringManipulate.exe
+D:\v-lxiaod\CSharpLearning\StringManipulate\bin\Debug\StringManipulate.pdb
+D:\v-lxiaod\CSharpLearning\StringManipulate\obj\Debug\StringManipulate.csprojResolveAssemblyReference.cache
+D:\v-lxiaod\CSharpLearning\StringManipulate\obj\Debug\StringManipulate.exe
+D:\v-lxiaod\CSharpLearning\StringManipulate\obj\Debug\StringManipulate.pdb

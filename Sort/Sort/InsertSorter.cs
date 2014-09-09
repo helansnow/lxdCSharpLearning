@@ -2,20 +2,6 @@
 {
     public class InsertSorter
     {
-        private static int[] myArray;
-        private static int arraySize;
-
-        public static void Sort(int[] a)
-        {
-            myArray = a;
-            arraySize = myArray.Length;
-            InsertSort(myArray);
-        }
-
-        /// <summary>
-        ///
-        /// </summary>
-        /// <param name="myArray"></param>
         public static void InsertSort(int[] myArray)
         {
             int i, j, temp;
@@ -71,7 +57,7 @@
         public static void Run()
         {
             int[] a = new int[] {4, 2, 1, 6, 3, 6, 0, -5, 1, 1};
-            //Sort(a);
+            //InsertSort(a);
             InsertSort3(a);
             for (int i = 0; i < a.Length; i++)
             {

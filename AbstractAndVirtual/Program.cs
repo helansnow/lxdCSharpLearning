@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AbstractAndVirtual.CSharpLearning
+namespace CSharpLearning
 {
     class AA
     {
@@ -89,6 +89,8 @@ namespace AbstractAndVirtual.CSharpLearning
             //this is the virtual method in base class
 
             AbsctractOverride.Run();
+
+            VirtualAndOverride.Run();
             Console.ReadKey();
         }
     }

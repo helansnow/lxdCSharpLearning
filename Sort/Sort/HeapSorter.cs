@@ -18,7 +18,7 @@
             while (arraySize > 1)
             {
                 arraySize--;
-                Helper.Swap(myArray,0, arraySize);//将最大值放在数组最后
+                Helper.Swap(ref myArray[0], ref myArray[arraySize]);//将最大值放在数组最后
                 TraversingHeap(0);//将序列从0到n-1看成一个新的序列，重新建立堆
             }
         }
@@ -42,7 +42,7 @@
                         wNode++;//将子结点wNode设置成节点vNode下面值最大的子结点
                 if (myArray[vNode] >= myArray[wNode])
                     return;
-                Helper.Swap(myArray,vNode, wNode);//如果不是，就交换节点vNode和结点wNode的值
+                Helper.Swap(ref myArray[vNode], ref myArray[wNode]);//如果不是，就交换节点vNode和结点wNode的值
                 vNode = wNode;
                 wNode = 2 * vNode + 1;//继续向下找子结点
             }

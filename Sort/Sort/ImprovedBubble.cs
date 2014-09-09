@@ -34,7 +34,7 @@ namespace Sort.CSharpLearning
                 {
                     if (number[i] > number[i + 1])
                     {
-                        swap(number, i, i + 1);
+                        Helper.Swap(ref number[i] , ref number[i + 1]);
                         shift = i;
                     }
                 }
@@ -45,21 +45,13 @@ namespace Sort.CSharpLearning
                 {
                     if (number[i] < number[i - 1])
                     {
-                        swap(number, i, i - 1);
+                        Helper.Swap(ref number[i], ref number[i - 1]);
                         shift = i;
                     }
                 }
                 left = shift;
             }
         }
-
-        private static void swap(int[] number, int i, int j)
-        {
-            int t = number[i];
-            number[i] = number[j];
-            number[j] = t;
-        }
-
 
         public static void Run()
         {

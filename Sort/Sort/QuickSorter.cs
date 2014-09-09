@@ -44,7 +44,7 @@ namespace Sort.CSharpLearning
                     while(number[--j] > s) ;  // 向左找 
                     if(i >= j) 
                         break;
-                    Helper.Swap(number, i,j); 
+                    Helper.Swap(ref number[i], ref number[j]); 
                 } 
 
                 quickSort(number, left, i-1);   // 對左邊進行遞迴 

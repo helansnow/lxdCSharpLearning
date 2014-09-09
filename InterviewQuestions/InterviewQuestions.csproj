@@ -41,12 +41,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CharsCombination.cs" />
     <Compile Include="CharsPermutation.cs" />
+    <Compile Include="CountNumberOfWords.cs" />
+    <Compile Include="FindDupInArray.cs" />
+    <Compile Include="FindIntersectionOf2SortedArrays.cs" />
     <Compile Include="FindMissingIn1toN.cs" />
+    <Compile Include="IntegerToXBase.cs" />
+    <Compile Include="InvertInteger.cs" />
+    <Compile Include="IsNumberPalindrome.cs" />
+    <Compile Include="LeftShiftString.cs" />
+    <Compile Include="MaxSumInSubArray.cs" />
+    <Compile Include="Print9X9.cs" />
     <Compile Include="PrintFrom1ToMaxNBitNum.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StackWithMin.cs" />
+    <Compile Include="ReverseSentence.cs" />
+    <Compile Include="ReverseStringWithoutExtraSpace.cs" />
+    <Compile Include="StringManipulate.cs" />
+    <Compile Include="StringToInt.cs" />
+    <Compile Include="SystemTextEncoding.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

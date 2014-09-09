@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace AbstractAndVirtual.CSharpLearning
+namespace CSharpLearning
 {
     public class A
     {

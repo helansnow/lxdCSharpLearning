@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace BiTreeTravers.CSharpLearning
+namespace BiTreeTravers
 {
     class Test
     {
@@ -14,6 +14,31 @@ namespace BiTreeTravers.CSharpLearning
             //biTree.TestGenerationFromTraversals();
 
             BinaryTreeNode<string> rootNode = BinaryTreeConstruct.BinTree();
+
+            //      A
+            //  /       \
+            // B          C
+            //  \       /    \
+            //   D      E      F
+            //  / \
+            // G   H
+            var nodeG = rootNode.LNode.RNode.LNode; //G
+            var nodeE = rootNode.RNode.LNode; //E
+            BinaryTreeNode<string> lcaNode = LowestCommonAncestorOfBinaryTree.LowestCommonAncestor(nodeG, nodeE);
+            if(lcaNode !=null)
+                Console.WriteLine("Lowest Common Ancestor of a Binary Tree for {0} and {1} is {2}", nodeE.Data, nodeG.Data, lcaNode.Data );
+
+            var nodeB = rootNode.LNode; //B
+            var nodeF = rootNode.RNode.RNode; //F
+            lcaNode = LowestCommonAncestorOfBinaryTree.LowestCommonAncestor(nodeB, nodeF);
+            if (lcaNode != null)
+                Console.WriteLine("Lowest Common Ancestor of a Binary Tree for {0} and {1} is {2}", nodeE.Data, nodeG.Data, lcaNode.Data);
+
+            lcaNode = LowestCommonAncestorOfBinaryTree.LowestCommonAncestor(nodeB, nodeG);
+            if (lcaNode != null)
+                Console.WriteLine("Lowest Common Ancestor of a Binary Tree for {0} and {1} is {2}", nodeE.Data, nodeG.Data, lcaNode.Data);
+
+
             Console.WriteLine("Recursive Binary Tree Pre Order Traversal：");
             BinaryTraverse.PreOrder<string>(rootNode);
             Console.WriteLine();
@@ -39,8 +64,9 @@ namespace BiTreeTravers.CSharpLearning
             BinaryTraverse.postOrderIter<string>(rootNode);
             Console.WriteLine("Iterative Binary Tree Post Order Traversal Iterative：");
             BinaryTraverse.postOrderTraversalIterative<string>(rootNode);
-            Console.WriteLine("Iterative Binary Tree Post Order Traversal Iterative2：");
-            BinaryTraverse.postOrderTraversalIterative2<string>(rootNode);
+            //Console.WriteLine();
+            //Console.WriteLine("Iterative Binary Tree Post Order Traversal Iterative2：");
+            //BinaryTraverse.postOrderTraversalIterative2<string>(rootNode);
 
             Console.WriteLine();
             Console.WriteLine();

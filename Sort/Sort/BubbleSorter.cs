@@ -17,14 +17,6 @@ namespace Sort.CSharpLearning
     /// </summary>
     public class BubbleSorter
     {
-        private static int[] myArray;
-
-        public static void Sort(int[] a)
-        {
-            myArray = a;
-            BubbleSort(myArray);
-        }
-
         /// <summary>
         /// 冒泡算法
         /// </summary>
@@ -54,7 +46,7 @@ namespace Sort.CSharpLearning
                 {
                     if (number[j + 1] < number[j])
                     {
-                        Swap(ref number[j + 1], ref number[j]);
+                        Helper.Swap(ref number[j + 1], ref number[j]);
                         flag = true;
                     }
                 }
@@ -81,19 +73,6 @@ namespace Sort.CSharpLearning
             }  
         }  
 
-        /// <summary>
-        /// 交换
-        /// </summary>
-        /// <param name="left"></param>
-        /// <param name="right"></param>
-        private static void Swap(ref int left, ref int right)
-        {
-            int temp;
-            temp = left;
-            left = right;
-            right = temp;
-        }
-
         public static void Run()
         {
             int[] a = new int[] {4, 2, 1, 6, 3, 6, 0, -5, 1, 1};
@@ -101,7 +80,7 @@ namespace Sort.CSharpLearning
             BubbleSort3(a);
             for (int i = 0; i < a.Length; i++)
             {
-                System.Console.WriteLine(a[i]);
+                Console.WriteLine(a[i]);
             }
         }
     }

@@ -1,0 +1,6 @@
+D:\v-lxiaod\CSharpLearning\StackAndQueue\bin\Debug\StackAndQueue.exe.config
+D:\v-lxiaod\CSharpLearning\StackAndQueue\bin\Debug\StackAndQueue.exe
+D:\v-lxiaod\CSharpLearning\StackAndQueue\bin\Debug\StackAndQueue.pdb
+D:\v-lxiaod\CSharpLearning\StackAndQueue\obj\Debug\StackAndQueue.csprojResolveAssemblyReference.cache
+D:\v-lxiaod\CSharpLearning\StackAndQueue\obj\Debug\StackAndQueue.exe
+D:\v-lxiaod\CSharpLearning\StackAndQueue\obj\Debug\StackAndQueue.pdb

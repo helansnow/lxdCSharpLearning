@@ -1,0 +1,15 @@
+F:\v-lxiaod\ImprovementProject1\CountNumberOfWords\bin\Debug\CountNumberOfWords.exe.config
+F:\v-lxiaod\ImprovementProject1\CountNumberOfWords\bin\Debug\CountNumberOfWords.exe
+F:\v-lxiaod\ImprovementProject1\CountNumberOfWords\bin\Debug\CountNumberOfWords.pdb
+F:\v-lxiaod\ImprovementProject1\CountNumberOfWords\obj\Debug\CountNumberOfWords.csprojResolveAssemblyReference.cache
+F:\v-lxiaod\ImprovementProject1\CountNumberOfWords\obj\Debug\CountNumberOfWords.exe
+F:\v-lxiaod\ImprovementProject1\CountNumberOfWords\obj\Debug\CountNumberOfWords.pdb
+D:\v-lxiaod\ImprovementProject1\CountNumberOfWords\bin\Debug\CountNumberOfWords.exe.config
+D:\v-lxiaod\ImprovementProject1\CountNumberOfWords\obj\Debug\CountNumberOfWords.exe
+D:\v-lxiaod\ImprovementProject1\CountNumberOfWords\obj\Debug\CountNumberOfWords.pdb
+D:\v-lxiaod\CSharpLearning\CountNumberOfWords\bin\Debug\CountNumberOfWords.exe.config
+D:\v-lxiaod\CSharpLearning\CountNumberOfWords\obj\Debug\CountNumberOfWords.exe
+D:\v-lxiaod\CSharpLearning\CountNumberOfWords\obj\Debug\CountNumberOfWords.pdb
+D:\v-lxiaod\CSharpLearning\CountNumberOfWords\bin\Debug\CountNumberOfWords.exe
+D:\v-lxiaod\CSharpLearning\CountNumberOfWords\bin\Debug\CountNumberOfWords.pdb
+D:\v-lxiaod\CSharpLearning\CountNumberOfWords\obj\Debug\CountNumberOfWords.csprojResolveAssemblyReference.cache

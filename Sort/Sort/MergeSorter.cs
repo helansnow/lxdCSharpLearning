@@ -7,38 +7,31 @@ namespace Sort.CSharpLearning
 {
     public class MergeSorter
     {
-        private static int[] myArray;
-        private static int arraySize;
-
-        public static void Sort(int[] a)
-        {
-            myArray = a;
-            arraySize = myArray.Length;
-            MergeSort();
-        }
         /// <summary>
         /// 利用归并的方法排序数组，首先将序列分割
         /// 然后将数列归并
         /// 时间是O(nlog n)
         /// </summary>
         /// <param name="myArray"></param>
-        public static void MergeSort()
+        public static void MergeSort(int[] myArray)
         {
+            var arraySize = myArray.Length;
             int[] temp = new int[arraySize];
-            Msort(temp, 0, arraySize - 1);
+            Msort(myArray,temp, 0, arraySize - 1);
         }
-        private static void Msort(int[] temp, int left, int right)
+        private static void Msort(int[] myArray,int[] temp, int left, int right)
         {
             int mid;
             if (right > left)
             {
                 mid = (right + left) / 2;
-                Msort(temp, left, mid);//分割左边的序列
-                Msort(temp, mid + 1, right);//分割右边的序列
-                Merge(temp, left, mid + 1, right);//归并序列
+                Msort(myArray, temp, left, mid);//分割左边的序列
+                Msort(myArray,temp, mid + 1, right);//分割右边的序列
+                Merge(myArray,temp, left, mid + 1, right);//归并序列
             }
         }
-        private static void Merge(int[] temp, int left, int mid, int right)
+
+        private static void Merge(int[] myArray, int[] temp, int left, int mid, int right)
         {
             int i, left_end, num_elements, tmp_pos;
             int orgLeft = left;
@@ -73,7 +66,7 @@ namespace Sort.CSharpLearning
 
             for (i = 0; i < num_elements; i++)
             {
-                myArray[orgLeft + i] = temp[orgLeft+i];
+                myArray[orgLeft + i] = temp[orgLeft + i];
             }
         }
 
@@ -81,11 +74,11 @@ namespace Sort.CSharpLearning
         public static void Run()
         {
             int[] a = new int[] { 4, 2, 1, 6, 3, 6, 0, -5, 1, 1 };
-            MergeSorter.Sort(a);
+            MergeSort(a);
 
             for (int i = 0; i < a.Length; i++)
             {
-                System.Console.WriteLine(a[i]);
+                Console.WriteLine(a[i]);
             }
         }
     }

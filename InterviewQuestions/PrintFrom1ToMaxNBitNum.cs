@@ -8,6 +8,7 @@ namespace InterviewQuestions
 {
     class PrintFrom1ToMaxNBitNum
     {
+        //if n=3, 1,2,3~999
         public static void Print1ToMaxOfNBits(int n)
         {
             if (n <= 0) return;

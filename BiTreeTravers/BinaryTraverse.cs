@@ -4,7 +4,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Text;
-namespace BiTreeTravers.CSharpLearning
+namespace BiTreeTravers
 {
     public class BinaryTraverse
     {
@@ -50,7 +50,7 @@ namespace BiTreeTravers.CSharpLearning
                     s.Push(root);
                     root = root.LNode;         //访问左子树  
                 }
-                else
+                else //root == null => leaf node 
                 {
                     root = s.Peek();            //回溯至父亲结点  
                     s.Pop();
@@ -311,14 +311,14 @@ namespace BiTreeTravers.CSharpLearning
                     Console.WriteLine();//此次结束，换行打印下一层
                     //var qTemp = currentLevel;
                     //currentLevel = nextLevel;
-                    //nextLevel = currentLevel;
-                    swap(ref currentLevel, ref nextLevel);  
+                    //nextLevel = qTemp;
+                    swap( currentLevel,  nextLevel);  
                 }  
             }
             Console.WriteLine();
         }
 
-        static void swap<T>(ref Queue<BinaryTreeNode<T>> curr, ref Queue<BinaryTreeNode<T>> next)  
+        static void swap<T>( Queue<BinaryTreeNode<T>> curr,  Queue<BinaryTreeNode<T>> next)  
         {
             while (next.Count != 0)
             {  

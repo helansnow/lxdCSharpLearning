@@ -11,9 +11,23 @@ namespace InterviewQuestions
         static void Main(string[] args)
         {
             //FindMissingIn1ToN.Run();
-            PrintFrom1ToMaxNBitNum.Run();
+            //PrintFrom1ToMaxNBitNum.Run();
             //CharsPermutation.Run();
-            Console.ReadLine();
+            //CharsCombination.Test();
+            //MaxSumInSubArray.Run();
+            //FindDupInArray.Run();
+            //InvertInteger.Test();
+            //FindIntersectionOf2SortedArrays.Test();
+            //CountNumberOfWords.Test();
+            //IsPalindrome.Test();
+            //IntegerToXBase.Test();
+            //Print9X9.Run();
+            //ReverseStringWithoutExtraSpace.Run();
+            StringManipulate.Run();
+            //SystemTextEncoding.Test();
+            //StringToInt.Test();
+            //ReverseSentence.Test();
+            //LeftShiftString.Test();
         }
     }
 }

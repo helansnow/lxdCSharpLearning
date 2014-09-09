@@ -1,0 +1,12 @@
+F:\v-lxiaod\ImprovementProject1\IsNumberPalindrome\bin\Debug\IsNumberPalindrome.exe.config
+F:\v-lxiaod\ImprovementProject1\IsNumberPalindrome\bin\Debug\IsNumberPalindrome.exe
+F:\v-lxiaod\ImprovementProject1\IsNumberPalindrome\bin\Debug\IsNumberPalindrome.pdb
+F:\v-lxiaod\ImprovementProject1\IsNumberPalindrome\obj\Debug\IsNumberPalindrome.csprojResolveAssemblyReference.cache
+F:\v-lxiaod\ImprovementProject1\IsNumberPalindrome\obj\Debug\IsNumberPalindrome.exe
+F:\v-lxiaod\ImprovementProject1\IsNumberPalindrome\obj\Debug\IsNumberPalindrome.pdb
+D:\v-lxiaod\CSharpLearning\IsNumberPalindrome\bin\Debug\IsNumberPalindrome.exe.config
+D:\v-lxiaod\CSharpLearning\IsNumberPalindrome\bin\Debug\IsNumberPalindrome.exe
+D:\v-lxiaod\CSharpLearning\IsNumberPalindrome\bin\Debug\IsNumberPalindrome.pdb
+D:\v-lxiaod\CSharpLearning\IsNumberPalindrome\obj\Debug\IsNumberPalindrome.csprojResolveAssemblyReference.cache
+D:\v-lxiaod\CSharpLearning\IsNumberPalindrome\obj\Debug\IsNumberPalindrome.exe
+D:\v-lxiaod\CSharpLearning\IsNumberPalindrome\obj\Debug\IsNumberPalindrome.pdb

@@ -57,7 +57,7 @@ namespace InterviewQuestions
         public static bool Find2NumsAppearOnce(int[] data, ref int num1, ref int num2)
         {
             var length = data.Length;
-            if(data == null || length < 2)  
+            if(length < 2)  
                 return false;  
   
             int xorAll = 0;  

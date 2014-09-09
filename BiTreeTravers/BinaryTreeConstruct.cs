@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 //http://stackoverflow.com/questions/5618989/binary-tree-from-preorder-and-inorder-traversal
 
-namespace BiTreeTravers.CSharpLearning
+namespace BiTreeTravers
 {
     public class BinaryTreeConstruct
     {
@@ -32,16 +32,27 @@ namespace BiTreeTravers.CSharpLearning
             binTree[3].LNode = binTree[6];
             binTree[3].RNode = binTree[7];
 
+             //      A 0
+             //  /       \
+             // B1          C2
+             //  \       /    \
+             //   D3     E4      F5
+             //  / \
+             // G6   H7
+
+            //set parent node
+            binTree[0].PNode = null;
+            binTree[1].PNode = binTree[0];
+            binTree[2].PNode = binTree[0];
+            binTree[3].PNode = binTree[1];
+            binTree[4].PNode = binTree[2];
+            binTree[5].PNode = binTree[2];
+            binTree[6].PNode = binTree[3];
+            binTree[7].PNode = binTree[3];
+
+
             //返回二叉树的根结点              
             return binTree[0];
-
-             //      A
-             //  /       \
-             // B          C
-             //  \       /    \
-             //   D      E      F
-             //  / \
-             // G   H
         }
 
         #endregion
