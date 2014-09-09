@@ -1,5 +1,8 @@
 ﻿//鸡尾酒排序（双冒泡排序、搅拌排序或涟漪排序） 
-namespace Sort.CSharpLearning
+
+using CSharpLearning.Sort;
+
+namespace CSharpLearning.Sort
 {
     public class CockTailSorter
     {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Sort.CSharpLearning
+namespace CSharpLearning.Sort
 {
     /// <summary>
     /// 一、冒泡排序 

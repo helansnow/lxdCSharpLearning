@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using CSharpLearning.Sort;
 
-namespace Sort.CSharpLearning
+namespace CSharpLearning.Sort
 {
     public class QuickSorter
     {
@@ -54,13 +55,14 @@ namespace Sort.CSharpLearning
 
         public static void Quick_sort(int[] array)
         {
-            Quick_sort(array, 0, array.Length - 1);
-            //quickSort(array, 0, array.Length - 1);
+            //Quick_sort(array, 0, array.Length - 1);
+            quickSort(array, 0, array.Length - 1);
         }
 
         public static void Run()
         {
-            int[] a = new int[] {4, 2, 1, 6, 3, 6, 0, -5, 1, 1};
+            int[] a = { 11, 49, 53, 86, 22, 27, 98, 88, 91, 100 };
+            //int[] a = new int[] {4, 2, 1, 6, 3, 6, 0, -5, 1, 1};
             //int[]  a = { 2, 9, 5, 1, 8, 3, 6, 4, 7, 0 };
             Quick_sort(a);
            

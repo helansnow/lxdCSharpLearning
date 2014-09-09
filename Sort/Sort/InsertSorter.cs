@@ -1,4 +1,4 @@
-﻿namespace Sort.CSharpLearning
+﻿namespace CSharpLearning.Sort
 {
     public class InsertSorter
     {

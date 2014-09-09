@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FindKthNumber.cs" />
     <Compile Include="SortCompare.cs" />
     <Compile Include="Sort\Fibonacci.cs" />
     <Compile Include="Program.cs" />

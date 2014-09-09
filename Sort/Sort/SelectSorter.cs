@@ -1,4 +1,6 @@
-﻿namespace Sort.CSharpLearning
+﻿using CSharpLearning.Sort;
+
+namespace CSharpLearning.Sort
 {
     public class SelectSorter
     {

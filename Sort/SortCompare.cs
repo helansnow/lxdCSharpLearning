@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 
 
-namespace Sort.CSharpLearning
+namespace CSharpLearning.Sort
 {
     class CompareSorters
     {  
