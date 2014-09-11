@@ -8,12 +8,10 @@ namespace InterviewQuestions
 {
     class FindMissingIn1ToN
     {
-        /*一个整型数组里除了1个数字只出现一次之外，其他的数字都出现了两次。
-         * 请写出程序找出这个只出现1次的数字。要求时间复杂度是O(n)，空间复杂度是O(1)。
-         * 这个很简单，通过异或就可以除掉相同的数字，到最后只剩下一个只出现一次的数字。
-         */
-        public static int FindMissingBySum(int[] input, int n)
+        /*一个1~n整型数组里除了1个数字只出现一次之外，其他的数字都出现了两次。*/
+        public static int FindMissingBySum(int[] input)
         {
+            int n = input.Length;
             int sum = 0;
             for (var i = 1; i <= n; i++)
             {
@@ -28,15 +26,15 @@ namespace InterviewQuestions
             return sum;
         }
 
-        public static int FindMissingByXor(int[] input, int n)
+        /*一个整型数组里除了1个数字只出现一次之外，其他的数字都出现了两次。
+         * 请写出程序找出这个只出现1次的数字。要求时间复杂度是O(n)，空间复杂度是O(1)。
+         * 这个很简单，通过异或就可以除掉相同的数字，到最后只剩下一个只出现一次的数字。
+           int[] input2 = { 1, 1, 6, 3,3, 5,5, 8,8, 10,10,9, 9 }; // 6
+         */
+        public static int FindMissingByXor(int[] input)
         {
             int sum = 0;
-            for (var i = 1; i <= n; i++)
-            {
-                sum ^= i;
-            }
-
-            for (int i = 0; i < n - 1; i++)
+            for (var i = 0; i < input.Length; i++)
             {
                 sum ^= input[i];
             }
@@ -54,8 +52,10 @@ namespace InterviewQuestions
          * 假如异或结果第k为是1，那么num1和num2的第k位一个为0，一个为1。
          * 我们根据第k为是否为0把它们异或到不同的结果xor1和xor2中。
          * 到最后xor1中和xor2中就保存的是num1和num2（或num2和num1）。*/
-        public static bool Find2NumsAppearOnce(int[] data, ref int num1, ref int num2)
+        public static bool Find2NumsAppearOnce(int[] data, out int num1, out int num2)
         {
+            num1 = -1;
+            num2 = -1;
             var length = data.Length;
             if(length < 2)  
                 return false;  
@@ -106,12 +106,13 @@ namespace InterviewQuestions
         public static void Run()
         {
             int[] input = {1, 2, 6, 7, 3, 5, 8, 10, 9}; //4
-            Console.WriteLine("FindMissingBySum {0}",FindMissingBySum(input,10));
-            Console.WriteLine("FindMissingByXor {0}", FindMissingByXor(input, 10));
+            int[] input2 = { 1, 1, 6, 3, 3, 5, 5, 8, 8, 10, 10, 9, 9 }; // 6
+            Console.WriteLine("FindMissingBySum {0}",FindMissingBySum(input));
+            Console.WriteLine("FindMissingByXor {0}", FindMissingByXor(input2));
 
-            int[] input2 = { 1, 1, 6, 3,3, 5,5, 8, 10,10,9, 9 }; // 6,8
+            int[] input3 = { 1, 1, 6, 3,3, 5,5, 8, 10,10,9, 9 }; // 6,8
             int n1 = 0, n2 = 0;
-            if (Find2NumsAppearOnce(input2, ref n1, ref n2))
+            if (Find2NumsAppearOnce(input3, out n1, out n2))
             {
                 Console.WriteLine("Find2NumsAppearOnce {0}, {1}", n1, n2);
             }

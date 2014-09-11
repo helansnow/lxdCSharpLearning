@@ -23,11 +23,12 @@ namespace InterviewQuestions
             //IntegerToXBase.Test();
             //Print9X9.Run();
             //ReverseStringWithoutExtraSpace.Run();
-            StringManipulate.Run();
+            //StringManipulate.Run();
             //SystemTextEncoding.Test();
             //StringToInt.Test();
             //ReverseSentence.Test();
             //LeftShiftString.Test();
+            FindSumPairs.Test();
         }
     }
 }

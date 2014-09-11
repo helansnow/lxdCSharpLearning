@@ -1,6 +1,0 @@
-D:\v-lxiaod\CSharpLearning\DelegateAndEvents\bin\Debug\DelegateAndEvents.exe.config
-D:\v-lxiaod\CSharpLearning\DelegateAndEvents\bin\Debug\DelegateAndEvents.exe
-D:\v-lxiaod\CSharpLearning\DelegateAndEvents\bin\Debug\DelegateAndEvents.pdb
-D:\v-lxiaod\CSharpLearning\DelegateAndEvents\obj\Debug\DelegateAndEvents.csprojResolveAssemblyReference.cache
-D:\v-lxiaod\CSharpLearning\DelegateAndEvents\obj\Debug\DelegateAndEvents.exe
-D:\v-lxiaod\CSharpLearning\DelegateAndEvents\obj\Debug\DelegateAndEvents.pdb

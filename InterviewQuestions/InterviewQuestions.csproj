@@ -47,6 +47,7 @@
     <Compile Include="FindDupInArray.cs" />
     <Compile Include="FindIntersectionOf2SortedArrays.cs" />
     <Compile Include="FindMissingIn1toN.cs" />
+    <Compile Include="FindSumPairs.cs" />
     <Compile Include="IntegerToXBase.cs" />
     <Compile Include="InvertInteger.cs" />
     <Compile Include="IsNumberPalindrome.cs" />

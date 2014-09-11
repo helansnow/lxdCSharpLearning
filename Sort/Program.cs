@@ -18,7 +18,7 @@ namespace CSharpLearning.Sort
             //BubbleSorter.Run();
             //CompareSorters.SortCompare();
             //FindKthNumber.Test();
-            Console.ReadKey();
+            //Console.ReadKey();
         }
     }
 }

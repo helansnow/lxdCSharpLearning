@@ -1,6 +1,0 @@
-D:\v-lxiaod\CSharpLearning\XmlDocuments\bin\Debug\XmlDocuments.exe.config
-D:\v-lxiaod\CSharpLearning\XmlDocuments\bin\Debug\XmlDocuments.exe
-D:\v-lxiaod\CSharpLearning\XmlDocuments\bin\Debug\XmlDocuments.pdb
-D:\v-lxiaod\CSharpLearning\XmlDocuments\obj\Debug\XmlDocuments.csprojResolveAssemblyReference.cache
-D:\v-lxiaod\CSharpLearning\XmlDocuments\obj\Debug\XmlDocuments.exe
-D:\v-lxiaod\CSharpLearning\XmlDocuments\obj\Debug\XmlDocuments.pdb
