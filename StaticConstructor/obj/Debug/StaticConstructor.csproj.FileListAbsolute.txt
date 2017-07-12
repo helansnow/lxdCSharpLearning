@@ -1,5 +1,0 @@
-D:\v-lxiaod\CSharpLearning\CSharpLearning\StaticConstructor\obj\Debug\ConsoleApplication1.exe
-D:\v-lxiaod\CSharpLearning\CSharpLearning\StaticConstructor\obj\Debug\ConsoleApplication1.pdb
-D:\v-lxiaod\CSharpLearning\CSharpLearning\StaticConstructor\obj\Debug\StaticConstructor.csprojResolveAssemblyReference.cache
-D:\v-lxiaod\CSharpLearning\CSharpLearning\StaticConstructor\bin\Debug\ConsoleApplication1.exe
-D:\v-lxiaod\CSharpLearning\CSharpLearning\StaticConstructor\bin\Debug\ConsoleApplication1.pdb

@@ -1,5 +1,0 @@
-D:\v-lxiaod\CSharpLearning\CSharpLearning\obj\x86\Debug\Sort.csprojResolveAssemblyReference.cache
-D:\v-lxiaod\CSharpLearning\CSharpLearning\obj\x86\Debug\CSharpLearning.exe
-D:\v-lxiaod\CSharpLearning\CSharpLearning\obj\x86\Debug\CSharpLearning.pdb
-D:\v-lxiaod\CSharpLearning\CSharpLearning\bin\Debug\CSharpLearning.exe
-D:\v-lxiaod\CSharpLearning\CSharpLearning\bin\Debug\CSharpLearning.pdb
